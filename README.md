@@ -4,7 +4,7 @@ This project copies the Promise API from JavaScript in c++.
 ## Integration
 `Promise.h` is all you need.
 Simply copy the file to your project and include it.
-```
+```cpp
 #include <PromisePP/Promise.h>
 
 using PromisePP::Promise;
