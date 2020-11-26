@@ -11,7 +11,7 @@ using PromisePP::Promise;
 ```
 
 ## Example
-```
+```cpp
 
 PromisePP::Promise<int, std::string> p = PromisePP::Promise<int, std::string>([](std::function<void(int)> resolve, std::function<void(std::string)> reject) 
 		{
